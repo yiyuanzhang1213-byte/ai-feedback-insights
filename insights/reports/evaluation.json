@@ -1,0 +1,474 @@
+{
+  "input_n": 30,
+  "valid_n": 28,
+  "duplicate_n": 2,
+  "feedback": [
+    {
+      "id": "F001",
+      "user_id": "U01",
+      "text": "回答引用找不到来源希望能看到原文",
+      "rating": 2,
+      "label": "回答可信度",
+      "evidence": [
+        "引用",
+        "来源"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F002",
+      "user_id": "U02",
+      "text": "模型编造了不准确的政策",
+      "rating": 1,
+      "label": "回答可信度",
+      "evidence": [
+        "编造",
+        "不准确"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F003",
+      "user_id": "U03",
+      "text": "答案有来源引用很有帮助",
+      "rating": 5,
+      "label": "回答可信度",
+      "evidence": [
+        "引用",
+        "来源"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F004",
+      "user_id": "U04",
+      "text": "引用按钮可以直接打开原文就好了",
+      "rating": 3,
+      "label": "回答可信度",
+      "evidence": [
+        "引用"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F005",
+      "user_id": "U05",
+      "text": "同一个问题出现错误答案",
+      "rating": 1,
+      "label": "回答可信度",
+      "evidence": [
+        "错误答案"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F006",
+      "user_id": "U06",
+      "text": "响应太慢需要等一分钟",
+      "rating": 2,
+      "label": "响应性能",
+      "evidence": [
+        "慢"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F007",
+      "user_id": "U07",
+      "text": "文件大一点就超时",
+      "rating": 1,
+      "label": "响应性能",
+      "evidence": [
+        "超时"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F008",
+      "user_id": "U08",
+      "text": "等待的时候没有进度反馈",
+      "rating": 2,
+      "label": "响应性能",
+      "evidence": [
+        "等待"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F009",
+      "user_id": "U09",
+      "text": "页面操作卡顿很严重",
+      "rating": 2,
+      "label": "响应性能",
+      "evidence": [
+        "卡顿"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F010",
+      "user_id": "U10",
+      "text": "希望降低首字延迟",
+      "rating": 3,
+      "label": "响应性能",
+      "evidence": [
+        "延迟"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F011",
+      "user_id": "U11",
+      "text": "导出按钮不容易找到",
+      "rating": 2,
+      "label": "交互体验",
+      "evidence": [
+        "按钮",
+        "导出"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F012",
+      "user_id": "U12",
+      "text": "历史记录应该支持搜索",
+      "rating": 3,
+      "label": "交互体验",
+      "evidence": [
+        "历史记录"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F013",
+      "user_id": "U13",
+      "text": "界面字号太小看不清",
+      "rating": 2,
+      "label": "交互体验",
+      "evidence": [
+        "看不清",
+        "界面"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F014",
+      "user_id": "U14",
+      "text": "手机界面布局很好",
+      "rating": 5,
+      "label": "交互体验",
+      "evidence": [
+        "界面"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F015",
+      "user_id": "U15",
+      "text": "找不到清空会话的按钮",
+      "rating": 2,
+      "label": "交互体验",
+      "evidence": [
+        "按钮",
+        "找不到"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F016",
+      "user_id": "U16",
+      "text": "知识库不支持表格文档",
+      "rating": 2,
+      "label": "知识覆盖",
+      "evidence": [
+        "知识库",
+        "文档",
+        "不支持"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F017",
+      "user_id": "U17",
+      "text": "上传文档后仍然无法回答",
+      "rating": 1,
+      "label": "知识覆盖",
+      "evidence": [
+        "文档",
+        "无法回答"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F018",
+      "user_id": "U18",
+      "text": "门店规则没有相关内容",
+      "rating": 2,
+      "label": "知识覆盖",
+      "evidence": [
+        "没有相关"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F019",
+      "user_id": "U19",
+      "text": "希望知识库支持版本更新",
+      "rating": 3,
+      "label": "知识覆盖",
+      "evidence": [
+        "知识库"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F020",
+      "user_id": "U20",
+      "text": "文档更新后答案没有同步",
+      "rating": 2,
+      "label": "知识覆盖",
+      "evidence": [
+        "文档"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F021",
+      "user_id": "U21",
+      "text": "担心个人信息隐私泄露",
+      "rating": 1,
+      "label": "隐私安全",
+      "evidence": [
+        "隐私",
+        "泄露"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F022",
+      "user_id": "U22",
+      "text": "能不能看到其他用户的记录",
+      "rating": 2,
+      "label": "隐私安全",
+      "evidence": [
+        "其他用户"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F023",
+      "user_id": "U23",
+      "text": "请不要记录我的身份证",
+      "rating": 1,
+      "label": "隐私安全",
+      "evidence": [
+        "身份证"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F024",
+      "user_id": "U24",
+      "text": "密码输入框没有遮挡",
+      "rating": 1,
+      "label": "隐私安全",
+      "evidence": [
+        "密码"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F025",
+      "user_id": "U25",
+      "text": "数据隐私说明比较清楚",
+      "rating": 5,
+      "label": "隐私安全",
+      "evidence": [
+        "隐私"
+      ],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F026",
+      "user_id": "U26",
+      "text": "希望整体更智能一点",
+      "rating": 3,
+      "label": "待人工分类",
+      "evidence": [],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F027",
+      "user_id": "U27",
+      "text": "不错继续加油",
+      "rating": 5,
+      "label": "待人工分类",
+      "evidence": [],
+      "method": "关键词规则",
+      "review_required": true
+    },
+    {
+      "id": "F028",
+      "user_id": "U28",
+      "text": "能不能更好用一些",
+      "rating": 3,
+      "label": "待人工分类",
+      "evidence": [],
+      "method": "关键词规则",
+      "review_required": true
+    }
+  ],
+  "backlog": [
+    {
+      "theme": "交互体验",
+      "feedback_n": 5,
+      "unique_users": 5,
+      "negative_n": 3,
+      "negative_rate": 0.6,
+      "reach": 5,
+      "impact": 2.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 2.5,
+      "evidence_ids": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015"
+      ],
+      "attention": "常规评审"
+    },
+    {
+      "theme": "响应性能",
+      "feedback_n": 5,
+      "unique_users": 5,
+      "negative_n": 4,
+      "negative_rate": 0.8,
+      "reach": 5,
+      "impact": 2.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 2.5,
+      "evidence_ids": [
+        "F006",
+        "F007",
+        "F008",
+        "F009",
+        "F010"
+      ],
+      "attention": "常规评审"
+    },
+    {
+      "theme": "回答可信度",
+      "feedback_n": 5,
+      "unique_users": 5,
+      "negative_n": 3,
+      "negative_rate": 0.6,
+      "reach": 5,
+      "impact": 2.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 2.5,
+      "evidence_ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ],
+      "attention": "常规评审"
+    },
+    {
+      "theme": "知识覆盖",
+      "feedback_n": 5,
+      "unique_users": 5,
+      "negative_n": 4,
+      "negative_rate": 0.8,
+      "reach": 5,
+      "impact": 2.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 2.5,
+      "evidence_ids": [
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020"
+      ],
+      "attention": "常规评审"
+    },
+    {
+      "theme": "隐私安全",
+      "feedback_n": 5,
+      "unique_users": 5,
+      "negative_n": 4,
+      "negative_rate": 0.8,
+      "reach": 5,
+      "impact": 2.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 2.5,
+      "evidence_ids": [
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025"
+      ],
+      "attention": "优先人工审查"
+    },
+    {
+      "theme": "待人工分类",
+      "feedback_n": 3,
+      "unique_users": 3,
+      "negative_n": 0,
+      "negative_rate": 0.0,
+      "reach": 3,
+      "impact": 1.0,
+      "confidence": 0.5,
+      "effort": 2.0,
+      "rice": 0.75,
+      "evidence_ids": [
+        "F026",
+        "F027",
+        "F028"
+      ],
+      "attention": "常规评审"
+    }
+  ],
+  "evaluation": {
+    "dataset": "self-authored keyword-aligned synthetic examples; not independent validation",
+    "correct": 28,
+    "n": 28,
+    "label_agreement": 1.0,
+    "live_model_tested": false
+  }
+}

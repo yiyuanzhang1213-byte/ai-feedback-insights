@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "initial render",
+    "30 to 28 dedup summary",
+    "6 themes",
+    "manual label override",
+    "RICE estimate applied"
+  ],
+  "passed": true
+}
